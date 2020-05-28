@@ -24,6 +24,7 @@ analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
+mathjax: true
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
