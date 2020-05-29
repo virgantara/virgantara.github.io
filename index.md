@@ -4,11 +4,12 @@ title: Home
 permalink: /
 ---
 
-Some information about you!
+I am a researcher from Universitas Darussalam Gontor currently focused on Computer Vision and Machine Learning.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+* Bachelor Degree in Information System, Institut Teknologi Sepuluh Nopember (2007 - 2012)
+* Master Degree in Electrical Engineering, Institut Teknologi Sepuluh Nopember (2015 - 2017)
 
 ### Contact me
 
