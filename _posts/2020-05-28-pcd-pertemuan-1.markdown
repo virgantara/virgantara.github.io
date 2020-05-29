@@ -1,28 +1,28 @@
 ---
 layout: post
-title: Pengolahan Citra Digital
+permalink: /course/pengolahan-citra-digital/pertemuan-1
+title: Pendahuluan
 date: 2020-05-28 00:00:00 +0300
 description: materi singkat pengatar pengenalan citra digital. # Add post description (optional)
 img: software.jpg # Add image post (optional)
-tags: [pengenalan, citra, digital, definisi, contoh] # add tag
+tags: [introduction, pengenalan, citra, digital, definisi, contoh] # add tag
 ---
 
-# Pengolahan Citra Digital
+<a href="{{ site.baseurl }}/course/pengolahan-citra-digital">&#8592; kembali</a>
+
 Github ini berisi tentang materi perkuliahan Pengolahan Citra Digital (PCD)
 
 Daftar Isi:
-1. Pengenalan PCD
-   1. [Definisi PCD](#definisi-pcd)
-   1. [Contoh penerapan PCD](#contoh-penerapan-pcd)
-   1. [Tahapan-tahapan dalam PCD](#tahapan-tahapan-dalam-pcd)
-   1. [Komponen dalam PCD](#komponen-dalam-pcd)
-   1. [Referensi](#referensi)
-1. Item 2
-1. Item 3
+1. [Definisi PCD](#definisi-pcd)
+1. [Contoh penerapan PCD](#contoh-penerapan-pcd)
+1. [Tahapan-tahapan dalam PCD](#tahapan-tahapan-dalam-pcd)
+1. [Komponen dalam PCD](#komponen-dalam-pcd)
+1. [Referensi](#referensi)
 
+---
 
 ##  Pengenalan PCD ##
- ### Definisi PCD ### 
+### Definisi PCD ### 
 
 
 #### Definisi Singkat dari Citra
@@ -48,6 +48,7 @@ Untuk lebih memudahkan pemahaman, kita *crop* sebagian kecil dengan ukuran 5 x 6
 
 Setiap blok pada Gambar 1.2B berukuran 1 piksel. Setiap piksel memiliki nilai intensitas. Contoh: pada Gambar 2B titik (0,0) memiliki intesitas sebesar 70. Jika ada citra memiliki koordinat x,y serta nilai intensitas yang terbatas dan diskrit maka disebut sebagai **citra digital**. 
 
+---
 
 ### Contoh Penerapan PCD ###
 
@@ -73,6 +74,8 @@ Metode Pencitraan dengan Sinar Gamma atau *Gamma Ray* sudah ditemukan di awal ab
    
       Hayo, siapa yang pernah iseng-iseng mainan filter telinga dan lidah hewan di Snapchat? Teknologi yang dipakai Snapchat sudah ada sejak tahun 2001 lho. Teknik yang dikembangkan oleh Viola & Jones (VJ) ini memanfaatkan keunikan dari wajah manusia. Mata, hidung, bibir, lidah, dan telinga jika dilihat secara digital memiliki intensitas yang berbeda dengan area sekitarnya. VJ menggunakan beberapa blok citra dengan ukuran tertentu yang hanya terdiri atas dua intensitas warna, yaitu gelap dan terang. Contoh: mata selalu memiliki intensitas lebih rendah daripada dahi. <sup>[[3]](#ref3)</sup> 
 
+
+---
 
 ### Tahapan-tahapan dalam PCD ###
 
@@ -115,8 +118,23 @@ Dalam kuliah ini, pembahasan PCD akan dibagi menjadi beberapa langkah (lihat Gam
 
 Pembagian ini bukanlah batasan. Tentunya, seiring berkembangnya zaman dan teknologi, pembagian ini bisa jadi ada penambahan atau sudah kadaluarsa.
 
+---
 ### Komponen dalam PCD ###
 
+![image_info]({{site_url}}/images/komponen_pcd.png)
+*Gambar 1.5*. Komponen dari PCD
+
+*Image sensors*, memiliki dua elemen yang diperlukan untuk memperoleh citra digital. Yang pertama adalah perangkat pengindera fisik yang peka terhadap energi yang dipancarkan oleh objek yang dicitrakan. Yang kedua disebut *digitizer*, adalah perangkat yang berfungsi untuk mengubah output perangkat penginderaan fisik menjadi bentuk digital.
+
+*Specialized image processing hardware* biasanya terdiri dari perangkat *digitizer* dan hardware yang melakukan operasi primitif lainnya seperti operasi *arithmetic logic unit* (ALU). Misalnya, pengurangan kebisingan.
+
+*Computer* pada sistem pemrosesan citra bisa berfungsi seperti *Personal Computer* (PC) biasa atau sekelas super komputer.
+
+*Image Display* yang digunakan saat ini adalah monitor TV berwarna.
+
+*Hardcopy Devices* bisa berupa alat untuk merekam gambar termasuk printer laser, kamera film, unit inkjet dan CD-ROM.
+
+---
 
 ### Referensi ###
 
@@ -127,5 +145,5 @@ Pembagian ini bukanlah batasan. Tentunya, seiring berkembangnya zaman dan teknol
 
    <a id="ref3">[3]</a> Viola, P., & Jones, M. (2001). Rapid object detection using a boosted cascade of simple features. In Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001 (pp. I–511–I–518). IEEE Comput. Soc.
 
-<a href="#top">Back to top</a>
+<a href="#top">&#8593; Back to top</a>
 
