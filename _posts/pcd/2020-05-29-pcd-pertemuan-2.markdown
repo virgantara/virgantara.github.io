@@ -2,13 +2,12 @@
 layout: post
 permalink: /course/pengolahan-citra-digital/pertemuan-2
 title: Akuisisi Citra
-date: 2020-05-28 00:00:00 +0300
 description: materi singkat tentang akuisisi citra digital. # Add post description (optional)
 img: software.jpg # Add image post (optional)
 tags: [akuisisi, citra, digital, definisi, contoh] # add tag
+backlink: course/pengolahan-citra-digital
 ---
 
-<a href="{{ site.baseurl }}/course/pengolahan-citra-digital">&#8592; kembali</a>
 
 Daftar Isi:
 1. [Model Kamera Pinhole](#model-kamera-pinhole)

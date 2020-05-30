@@ -6,15 +6,15 @@ date: 2020-05-28 00:00:00 +0300
 description: materi singkat pengatar pengenalan citra digital. # Add post description (optional)
 img: software.jpg # Add image post (optional)
 tags: [introduction, pengenalan, citra, digital, definisi, contoh] # add tag
+backlink: course/pengolahan-citra-digital
 ---
-
-<a href="{{ site.baseurl }}/course/pengolahan-citra-digital">&#8592; kembali</a>
 
 Konten:
 1. [Definisi PCD](#definisi-pcd)
 1. [Contoh penerapan PCD](#contoh-penerapan-pcd)
 1. [Tahapan-tahapan dalam PCD](#tahapan-tahapan-dalam-pcd)
 1. [Komponen dalam PCD](#komponen-dalam-pcd)
+1. [Kompresi Citra](#kompresi-citra)
 1. [Referensi](#referensi)
 
 ---
@@ -130,6 +130,28 @@ Pembagian ini bukanlah batasan. Tentunya, seiring berkembangnya zaman dan teknol
 *Image Display* yang digunakan saat ini adalah monitor TV berwarna.
 
 *Hardcopy Devices* bisa berupa alat untuk merekam gambar termasuk printer laser, kamera film, unit inkjet dan CD-ROM.
+
+---
+
+### Kompresi Citra ###
+
+Bagi kalian yang hobi desain, fotografi, atau edit foto pasti sudah tahu dengan beberapa format kompresi citra seperti: JPEG, PNG, GIF, TIFF, dan sebagainya. Tapi, tahukah kalian perbedaan yang mendasar diantara format kompresi tersebut? Kita bedah satu-satu ya.
+
+1. Joint Photographic Experts Group (JPEG)
+
+   JPEG saat ini merupakan format kompresi yang paling banyak dipakai dalam dunia internet maupun kamera digital. JPEG memiliki kemampuan kompresi untuk membuang informasi yang tidak bisa dideteksi oleh mata manusia sehingga JPEG bisa memiliki ukuran file yang kecil. Kemampuan ini dinamakan dengan *Lossy Compression*.  
+
+1. Portable Network Graphics (PNG)
+
+   Kemampuan kompresi PNG sedikit di bawah JPEG. PNG memiliki kemampuan menyimpan satu informasi lagi yaitu alpha. Alpha ini berfungsi sebagai nilai transparansi dari citra. Tentunya, ukuran file PNG lebih besar dari JPEG dengan resolusi sama. 
+
+1. Graphics Interchange Format (GIF)
+
+   Format kompresi GIF hanya mendukung 8-bit warna tiap pikselnya. Tentunya, tidak disarankan membuat desain banner, logo, foto dengan format kompresi GIF. Namun, GIF bisa untuk animasi tanpa audio.
+
+1. Tagged Image File Format (TIFF)
+
+   TIFF merupakan format kompresi yang tidak hanya mendukung RGB-alpha, tetapi juga format desimal dan nilai kedalaman citra.
 
 ---
 
