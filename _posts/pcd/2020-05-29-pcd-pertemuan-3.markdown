@@ -16,6 +16,7 @@ Daftar Isi:
 1. [Transformasi Citra Biner](#transformasi-citra-biner)
 1. [Transformasi Citra Negatif](#transformasi-citra-negatif)
 1. [Transformasi Power-law](#transformasi-power-law)
+1. [Transformasi Logaritmik](#transformasi-logaritmik)
 
 ### Pentingnya Peningkatan Citra ###
 
@@ -43,7 +44,7 @@ di mana $$ x,y $$ adalah koordinat titik citra.
 *Gambar 3.1*. (a) Citra grayscale asli. (b) Citra biner dari (a)
 
 
-Pada pertemuan 2 sudah disebutkan mengenai citra biner. Transformasi menjadi citra biner cukup sederhana, yaitu mengubah nilai intensitas tiap pikselnya menjadi hitam atau putih. Kapan piksel tersebut harus hitam atau putih? Untuk menentukan ini, ada batasan pembeda yang disebut dengan *threshold*. *Threshold* ditentukan dengan suatu angka. Sebagai contoh, dengan citra grayscale 8-bit, ditentukan nilai threshold sama dengan 110. Artinya, jika intensitas pada piksel kurang dari 110, maka intensitas pada titik tersebut diubah menjadil nol (0). Dan sebaliknya, jika lebih dari sama dengan 110, intensitas diubah menjadi 255. Besarnya nilai intensitas tiap piksel jika tulis dengan persamaan matematis adalah:
+Pada pertemuan 2 sudah disebutkan mengenai citra biner. Transformasi menjadi citra biner cukup sederhana, yaitu mengubah nilai intensitas tiap pikselnya menjadi hitam atau putih. Kapan piksel tersebut harus hitam atau putih? Untuk menentukan ini, ada pembeda yang disebut dengan *threshold*. *Threshold* ditentukan dengan suatu angka. Sebagai contoh, dengan citra grayscale 8-bit, ditentukan nilai threshold sama dengan 110. Artinya, jika intensitas pada piksel kurang dari 110, maka intensitas pada titik tersebut diubah menjadil nol (0). Dan sebaliknya, jika lebih dari sama dengan 110, intensitas diubah menjadi 255. Besarnya nilai intensitas tiap piksel jika tulis dengan persamaan matematis adalah:
 
 $$
 t = \left\{
@@ -54,7 +55,7 @@ t = \left\{
 \right.
 $$
 
-dan $$ t $$ adalah nilai *threshold*. Source code bisa kalian lihat di [sini](https://github.com/virgantara/pengolahan-citra-digital/blob/master/binary_transform.py) dan hasilnya seperti pada Gambar 3.1
+dan $$ t $$ adalah nilai *threshold*. Hasilnya seperti pada Gambar 3.1. [Source code](https://github.com/virgantara/pengolahan-citra-digital/blob/master/binary_transform.py)
 
 
 
@@ -72,9 +73,7 @@ $$
     g(x,y) = 255 - f(x,y)
 $$
 
-Contoh: pada satu titik piksel dengan intensitas sebesar 90, maka nilai negatifnya adalah $$ 255 - 90 = 165 $$. Adapun hasilnya seperti Gambar 3.2
-
-Tautan kode ada di [sini](https://github.com/virgantara/pengolahan-citra-digital/blob/master/negative_transform.py). 
+Contoh: pada satu titik piksel dengan intensitas sebesar 90, maka nilai negatifnya adalah $$ 255 - 90 = 165 $$. Adapun hasilnya seperti Gambar 3.2. [Source code](https://github.com/virgantara/pengolahan-citra-digital/blob/master/negative_transform.py). 
 
 ---
 
@@ -84,11 +83,51 @@ Tautan kode ada di [sini](https://github.com/virgantara/pengolahan-citra-digital
 *Gambar 3.3*. (a) Citra grayscale asli. (b) - (d) adalah citra hasil koreksi gamma dengan nilai $$ \gamma = 1.5, \gamma = 1.75 $$, dan $$ \gamma = 2.0 $$. (d) - (f) adalah citra hasil koreksi gamma dengan nilai $$ \gamma = 0.75, \gamma = 0.5 $$, dan $$ \gamma = 0.25 $$.
 
 
-Banyak peralatan elektronik yang digunakan untuk pencitraan mengadopsi *power-law*. Pada kondisi, peralatan ini menangkap luminas dengan baik. Beberapa perangkat display layar monitor juga demikian. Oleh karena itu, diperlukan transformasi untuk mengoreksi luminans. Proses koreksi ini disebut dengan *gamma correction*.   
+Banyak peralatan elektronik yang digunakan untuk pencitraan mengadopsi *power-law*. Pada kondisi, peralatan ini menangkap luminas dengan baik. Beberapa perangkat display layar monitor juga demikian. Oleh karena itu, diperlukan transformasi untuk mengoreksi luminans. Proses koreksi ini disebut dengan *gamma correction*.  [[1]](#ref1)[[2]](#ref2)
 Secara umum, fungsi transformasi ini dirumuskan dengan:
 
 $$
     g(x,y) = Kf(x,y)^\frac{1}{\gamma}
 $$
 
-dengan $$ \gamma $$ sebagai nilai gamma dan $$ K $$ adalah konstanta. Hasil dari transformasi gamma bisa dilihat pada Gambar 3.3.
+dengan $$ \gamma $$ sebagai nilai gamma dan $$ K $$ adalah konstanta. Hasil dari transformasi gamma bisa dilihat pada Gambar 3.3. [Source code](https://github.com/virgantara/pengolahan-citra-digital/blob/master/gamma_transform.py)
+
+---
+
+### Transformasi Logaritmik ###
+
+Dampak dari tranformasi logaritmik adalah meningkatkan intensitas piksel-piksel gelap dan mengurangi intensitas piksel yang cerah (lihat Gambar 3.4). Fungsi logaritmik yang digunakan adalah:
+
+$$
+
+g(x,y) = c \log(1 + f(x,y))
+
+$$
+
+di mana $$ c $$ diperoleh dari:
+
+$$
+
+c = \frac{255}{\log[1 + \max(f(x,y))]}
+
+$$
+
+
+
+![image info]({{site_url}}/images/log_transform.png) 
+*Gambar 3.4* (a) Citra asli, (b) citra hasil transformasi logaritmik
+
+---
+
+### Referensi ###
+
+
+  
+   <a id="ref1">[1]</a> Gonzalez, R., & Woods, R. (2002). Digital image processing. Prentice Hall.
+
+   <a id="ref2">[2]</a> Solomon, C., & Breckon, T. (2011). Fundamentals of Digital Image Processing. Wiley-Blackwell.
+
+
+
+<a href="#top">&#8593; Back to top</a>
+
