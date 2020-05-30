@@ -10,9 +10,7 @@ tags: [introduction, pengenalan, citra, digital, definisi, contoh] # add tag
 
 <a href="{{ site.baseurl }}/course/pengolahan-citra-digital">&#8592; kembali</a>
 
-Github ini berisi tentang materi perkuliahan Pengolahan Citra Digital (PCD)
-
-Daftar Isi:
+Konten:
 1. [Definisi PCD](#definisi-pcd)
 1. [Contoh penerapan PCD](#contoh-penerapan-pcd)
 1. [Tahapan-tahapan dalam PCD](#tahapan-tahapan-dalam-pcd)
@@ -21,12 +19,11 @@ Daftar Isi:
 
 ---
 
-##  Pengenalan PCD ##
 ### Definisi PCD ### 
 
 
 #### Definisi Singkat dari Citra
-Sebelum terjun ke materi, kita kenalan dulu dengan apa yang disebut **citra**. Mungkin, kalian bertanya-tanya, kenapa ***image*** ketika diterjemahkan ke dalam bahasa Indonesia menjadi citra? Kenapa terjemahannya bukan gambar? *Well*, citra secara makna memiliki konteks yang lebih luas dibandingkan dengan gambar. Sederhananya, gambar itu merupakan bagian dari citra. Contohnya, citra 2 dimensi (2D) bisa kalian temukan pada foto digital yang biasa kalian ambil dengan kamera, citra 3 dimensi seperti pada model objek 3 dimensi dari AutoCAD, dan sebagainya. Selanjutanya dalam materi ini, istilah **citra 2D** saya sederhanakan menjadi **citra**. Artinya, setiap ada kata **citra** berarti citra 2D.
+Sebelum terjun ke materi, kita kenalan dulu dengan apa yang disebut **citra**. Mungkin, kalian bertanya-tanya, kenapa ***image*** ketika diterjemahkan ke dalam bahasa Indonesia menjadi citra? Kenapa terjemahannya bukan gambar? *Well*, citra secara makna memiliki konteks yang lebih luas karena citra bisa bermakna citra satu dimensi (1D), dua dimensi (2D), tiga dimensi (3D) dan sebagainya. Sedangkan gambar merupakan citra 2D. Contohnya, citra 2 dimensi (2D) bisa kalian temukan pada foto digital yang biasa kalian ambil dengan kamera, citra 3 dimensi seperti pada model objek 3 dimensi dari AutoCAD, dan sebagainya.
 
 #### Model dari Citra
 Teman-teman yang telah mengambil mata kuliah Aljabar Linier (AL) masih ingat kan dengan beberapa fungsi matematis dan matriks? Di dalam mata kuliah AL, kalian belajar tentang matriks dua dimensi (2D). Coba kalian bayangkan sebuah citra dalam bentuk matriks 2D. Sulit gak? Oke, kita ilustrasikan fungsi tersebut ke dalam bentuk fungsi $$ f(x,y) $$. Sehingga, didapat matriks pada Persamaan 1:  
