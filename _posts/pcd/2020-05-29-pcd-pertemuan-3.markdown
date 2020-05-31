@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /course/pengolahan-citra-digital/pertemuan-3
-title: Image Enhancement Domain Spasial
+title: Image Enhancement Domain Spasial Graylevel Transformation
 description: materi singkat tentang peningkatan kualitas citra. # Add post description (optional)
 img: software.jpg # Add image post (optional)
 tags: [image, citra, digital, enhancement, contoh] # add tag
@@ -55,9 +55,7 @@ t = \left\{
 \right.
 $$
 
-dan $$ t $$ adalah nilai *threshold*. Hasilnya seperti pada Gambar 3.1. [Source code](https://github.com/virgantara/pengolahan-citra-digital/blob/master/binary_transform.py)
-
-
+dan $$ t $$ adalah nilai *threshold*. Hasilnya seperti pada Gambar 3.1. 
 
 ---
 
@@ -73,7 +71,7 @@ $$
     g(x,y) = 255 - f(x,y)
 $$
 
-Contoh: pada satu titik piksel dengan intensitas sebesar 90, maka nilai negatifnya adalah $$ 255 - 90 = 165 $$. Adapun hasilnya seperti Gambar 3.2. [Source code](https://github.com/virgantara/pengolahan-citra-digital/blob/master/negative_transform.py). 
+Contoh: pada satu titik piksel dengan intensitas sebesar 90, maka nilai negatifnya adalah $$ 255 - 90 = 165 $$. Adapun hasilnya seperti Gambar 3.2. 
 
 ---
 
@@ -90,13 +88,13 @@ $$
     g(x,y) = Kf(x,y)^\frac{1}{\gamma}
 $$
 
-dengan $$ \gamma $$ sebagai nilai gamma dan $$ K $$ adalah konstanta. Hasil dari transformasi gamma bisa dilihat pada Gambar 3.3. [Source code](https://github.com/virgantara/pengolahan-citra-digital/blob/master/gamma_transform.py)
+dengan $$ \gamma $$ sebagai nilai gamma dan $$ K $$ adalah konstanta. Hasil dari transformasi gamma bisa dilihat pada Gambar 3.3. 
 
 ---
 
 ### Transformasi Logaritmik ###
 
-Dampak dari tranformasi logaritmik adalah meningkatkan intensitas piksel-piksel gelap dan mengurangi intensitas piksel yang cerah (lihat Gambar 3.4). Fungsi logaritmik yang digunakan adalah:
+Dampak dari tranformasi logaritmik adalah meningkatkan intensitas piksel-piksel gelap dan mengurangi intensitas piksel yang cerah [[1](#ref1)] (lihat Gambar 3.4). Fungsi logaritmik yang digunakan adalah:
 
 $$
 
