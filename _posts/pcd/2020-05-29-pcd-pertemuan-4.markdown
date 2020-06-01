@@ -12,6 +12,7 @@ Konten:
 1. [Pengertian Histogram](#pengertian-histogram)
 1. [Adaptive Thresholding](#adaptive-thresholding)
 1. [Histogram Equalization](#histogram-equalization)
+1. [Adaptive Histogram Equalization](#adaptive-histogram-equalization)
 1. [Referensi](#referensi)
 ### Pengertian Histogram ###
 
@@ -51,6 +52,22 @@ Metode Otsu membagi citra menjadi dua bagian, *background* dan *foreground*. Met
 ### Histogram Equalization ###
 
 Anggap ada citra dengan kontras yang rendah, entah citra dengan kecerahan rendah atau *low brightness* (LB) atau kecerahan tinggi atau *high brightness* (HB), kemudian kita amati histogramnya. Pada citra LB, histogram akan cenderung berada pada intensitas rendah. Dan sebaliknya untuk citra HB, maka akan berada pada intensitas tinggi. 
+
+*Histogram Equalization* (HE) berguna untuk meningkatkan kontras citra. Jika pada citra gelap, distribusi intensitas cenderung berada pada sekitar 0 hingga 80. Namun, dengan HE ini memekarkan (*stretch*) distribusi intensitas citra gelap menjadi merata dari 0 hingga 255. Contoh dari HE ada pada Gambar 4.4  
+
+![image info]({{site_url}}/images/histeq.png) 
+*Gambar 4.4* (1)(a) Citra gelap, (1)(b) Citra terang, (1)(c) Citra hasil HE, (2)(a-c) adalah histogram dari masing-masing citra (1)(a-c)
+
+---
+
+### Adaptive Histogram Equalization ###
+
+HE menerapkan perhitungan peluang distribusi secara global yang artinya semua area pada citra diolah dengan cara sama. Padahal, tidak semua area citra memiliki intensitas yang homogen. Ada area yang terlalu gelap atau terlalu terang. Oleh karena itu, diperlukan adanya pemrosesan secara khusus pada area tertentu. Inilah yang dinamakan dengan *Adaptive Histogram Equalization* (AHE). AHE memiliki fungsi yang sama dengan HE. Perbedaannya terletak dari sisi adaptivitasnya. Jika HE menghitung intensitas citra secara global, maka AHE ini menghitung dengan parameter tertentu. Istilah adaptif pada AHE bermakna bahwa tiap region pada citra diproses cara yang berbeda-beda [[2](#ref2)]
+
+Kita amati perbandingan antara HE dengan AHE pada Gambar 4.5
+
+![image info]({{site_url}}/images/ahe.png) 
+*Gambar 4.5* (1)(a) Citra Asli, (1)(b) Citra hasil HE, (1)(c) Citra hasil AHE, (2)(a-c) adalah histogram dari masing-masing citra (1)(a-c)
 
 ---
 ### Referensi ###
