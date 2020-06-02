@@ -15,6 +15,7 @@ Daftar Isi:
 1. [Sensor Array](#sensor-array)
 1. [Sampling dan Quantization](#sampling-dan-quantization)
 1. [Resolusi dari Citra](#resolusi-dari-citra)
+1. [Latihan](#latihan)
 1. [Referensi](#referensi)
 
 Akuisisi Citra dikatakan sebagai proses mengubah objek ataupun latar (*scene*) menjadi ke dalam bentuk digital. Pembahasan pada materi ini dimulai dari model akuisisi citra yang paling sederhana.  
@@ -106,6 +107,9 @@ Ukuran representatif dari citra digital dinamakan dengan resolusi [[4]](#ref4). 
          Citra ini tidak menyimpan ukuran dalam bentuk integer melainkan dalam float atau desimal. Hal ini dikarenakan citra ini menyimpan suatu ukuran tertentu setiap pikselnya. Citra model ini sering ditemukan pada dunia kesehatan seperti citra hasil CT Scan, MRI, atau Ultrasonografi (USG).    
 
       
+---
+
+### Latihan ###
 
 ---
 

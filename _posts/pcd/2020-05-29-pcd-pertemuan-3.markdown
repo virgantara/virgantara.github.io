@@ -17,6 +17,8 @@ Daftar Isi:
 1. [Transformasi Citra Negatif](#transformasi-citra-negatif)
 1. [Transformasi Power-law](#transformasi-power-law)
 1. [Transformasi Logaritmik](#transformasi-logaritmik)
+1. [Latihan](#latihan)
+1. [Referensi](#referensi)
 
 ### Pentingnya Peningkatan Citra ###
 
@@ -114,6 +116,10 @@ $$
 
 ![image info]({{site_url}}/images/log_transform.png) 
 *Gambar 3.4* (a) Citra asli, (b) citra hasil transformasi logaritmik
+
+---
+
+### Latihan ###
 
 ---
 

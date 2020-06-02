@@ -15,6 +15,7 @@ Konten:
 1. [Tahapan-tahapan dalam PCD](#tahapan-tahapan-dalam-pcd)
 1. [Komponen dalam PCD](#komponen-dalam-pcd)
 1. [Kompresi Citra](#kompresi-citra)
+1. [Latihan](#latihan)
 1. [Referensi](#referensi)
 
 ---
@@ -152,6 +153,10 @@ Bagi kalian yang hobi desain, fotografi, atau edit foto pasti sudah tahu dengan 
 1. Tagged Image File Format (TIFF)
 
    TIFF merupakan format kompresi yang tidak hanya mendukung RGB-alpha, tetapi juga format desimal dan nilai kedalaman citra.
+
+---
+
+### Latihan ###
 
 ---
 

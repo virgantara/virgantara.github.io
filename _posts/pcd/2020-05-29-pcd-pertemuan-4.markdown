@@ -13,6 +13,7 @@ Konten:
 1. [Adaptive Thresholding](#adaptive-thresholding)
 1. [Histogram Equalization](#histogram-equalization)
 1. [Adaptive Histogram Equalization](#adaptive-histogram-equalization)
+1. [Latihan](#latihan)
 1. [Referensi](#referensi)
 ### Pengertian Histogram ###
 
@@ -70,6 +71,11 @@ Kita amati perbandingan antara HE dengan AHE pada Gambar 4.5
 *Gambar 4.5* (1)(a) Citra Asli, (1)(b) Citra hasil HE, (1)(c) Citra hasil AHE, (2)(a-c) adalah histogram dari masing-masing citra (1)(a-c)
 
 ---
+
+### Latihan ###
+
+---
+
 ### Referensi ###
 
 <a id="ref1">[1]</a> Gonzalez, R., & Woods, R. (2002). Digital image processing. Prentice Hall.
