@@ -33,7 +33,7 @@ permalink: /publication/
 * Design of Management Information Systems Memorandum of Understanding (MoU) And Memorandum of Agreement (MoA) Universitas Darussalam Gontor. Authors: **Oddy Virgantara Putra**, Yoke Suryadarma, Muhammad Arsyad Maulana. DOI: [10.33086/atcsj.v4i1.2152 ](https://doi.org/10.33086/atcsj.v4i1.2152) 
 * Rancang Bangun Sistem Monitoring Aktivitas Pengguna Hotspot UNIDA Gontor Menggunakan Rsyslog dan Mikrotik API (2021). Authors: Reyhan Nafis Ibrahim, Aziz Musthafa, **Oddy Virgantara Putra**. URL: [Link](https://ejournal.stmik-sumedang.ac.id/index.php/infomans/article/view/208)
 
-##### 2020 ####
+#### 2020 ####
 * Media Pembelajaran Bahasa Jepang Berbasis Mobile (2020). Authors: Faisal Reza Pradhana, Triana Harmini, Febri Vicky Allen, **Oddy Virgantara Putra**. DOI: [10.21111/fij.v5i3.4947](http://dx.doi.org/10.21111/fij.v5i3.4947)
 #### 2019 ####
 * Dehazing Citra Kabut Gunung Berapi Kelud Dengan Color Attenuation Prior Dan Adaptive Gamma Correction (2019). Authors: **Oddy Virgantara Putra**, Aziz Musthafa. DOI: [10.21111/fij.v4i2.3511](http://dx.doi.org/10.21111/fij.v4i2.3511)
