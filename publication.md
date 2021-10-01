@@ -35,6 +35,7 @@ permalink: /publication/
 
 #### 2020 ####
 1. Media Pembelajaran Bahasa Jepang Berbasis Mobile (2020). Authors: Faisal Reza Pradhana, Triana Harmini, Febri Vicky Allen, **Oddy Virgantara Putra**. DOI: [10.21111/fij.v5i3.4947](http://dx.doi.org/10.21111/fij.v5i3.4947)
+
 #### 2019 ####
 1. Dehazing Citra Kabut Gunung Berapi Kelud Dengan Color Attenuation Prior Dan Adaptive Gamma Correction (2019). Authors: **Oddy Virgantara Putra**, Aziz Musthafa. DOI: [10.21111/fij.v4i2.3511](http://dx.doi.org/10.21111/fij.v4i2.3511)
 1. Implementation Autoscaling Container Web Server using Kubernetes Promox-Based on Server University of Darussalam Gontor (2019). Authors: Imron Rosyadi, Shoffin Nahwa Utama, **Oddy Virgantara Putra**. DOI: [10.25124/jrsi.v6i02.362](http://dx.doi.org/10.25124/jrsi.v6i02.362)
