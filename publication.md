@@ -20,3 +20,4 @@ permalink: /publication/
 * Dehazing Citra Kabut Gunung Berapi Kelud Dengan Color Attenuation Prior Dan Adaptive Gamma Correction (2019).     DOI: [10.21111/fij.v4i2.3511](http://dx.doi.org/10.21111/fij.v4i2.3511)
 
 * Implementation Autoscaling Container Web Server using Kubernetes Promox-Based on Server University of Darussalam Gontor (2019).     DOI: [10.25124/jrsi.v6i02.362](http://dx.doi.org/10.25124/jrsi.v6i02.362)
+* Perbaikan Visibilitas pada Citra Berkabut Kawah Gunung Berapi Kelud Menggunakan Color Attenuation Prior. DOI: http://dx.doi.org/10.30865/mib.v5i1.2637
