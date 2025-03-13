@@ -4,7 +4,14 @@ title: Publication
 permalink: /publication/
 ---
 ### International Publications ###
+#### 2025 ####
+1. [AdaCrossNet: Adaptive Dynamic Loss Weighting for Cross-Modal Contrastive Point Cloud Learning](https://doi.org/10.22266/ijies2025.0229.11){:target="_blank"}\
+**<u>Oddy Virgantara Putra</u>**, Kohichi Ogata, Eko Mulyanto Yuniarno, Mauridhi Hery Purnomo
+
 #### 2024 ####
+1. [Modified CNN VoxNet Based Depthwise Separable Convolution for Voxel-Driven Body Orientation Classification](https://doi.org/10.1109/IST63414.2024.10759165){:target="_blank"}\
+Moch. Iskandar Riansyah, **<u>Oddy Virgantara Putra</u>**, Ardyono Priyadi, Tri Arief Sardjono, Eko Mulyanto Yuniarno, Mauridhi Hery Purnomo
+
 1. [Improvement of Tradition Dance Classification Process Using Video Vision Transformer based on Tubelet Embedding](https://doi.org/10.22266/ijies2024.0831.41){:target="_blank"}\
 Edy Mulyanto, Eko Mulyanto Yuniarno, **<u>Oddy Virgantara Putra</u>**, Isa Hafidz, Ardyono Priyadi, Mauridhi Hery Purnomo\
 <em>International Journal of Intelligent Engineering & Systems</em>

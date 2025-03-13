@@ -15,6 +15,13 @@ Researcher at Department of Informatics, Universitas Darussalam Gontor, Ponorogo
 ### Occupation ###
 * **2017 - Now** Lecturer at Department of Informatics, Universitas Darussalam Gontor, Ponorogo, Indonesia
 
+### Education ###
+* **2022 - 2025** Doctorate Degree in Electrical Engineering, Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia\
+Research topic: "Multimodal Indoor Human Activity Recognition using Deep Learning"\
+Advisor: Prof. Mauridhi H. Purnomo
+* **2015 - 2017** Master Degree in Electrical Engineering (equivalent to an MSc in CS), Department of Electrical Engineering, Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia\
+Advisor: Prof. Mauridhi H. Purnomo
+* **2007 - 2012** Bachelor Degree in Information System, Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia
 
 ### Short-Terms ###
 * **October 2023 - August 2024** : IJEP Short-Term Exchange Program, Department of Computer Science and Electrical Enginnering, Kumamoto University, Kumamoto, Japan\
@@ -23,13 +30,7 @@ Advisor: Assoc. Prof. Kohichi Ogata
 Venue: Imaging-based Computational Biomedicine (ICB) Lab.\
 Advisor: Prof. Yoshinobu Sato
 
-### Education ###
-* **2022 - Now** PhD Student, Department of Electrical Engineering, Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia\
-Research topic: "Multimodal Indoor Human Activity Recognition using Deep Learning"\
-Advisor: Prof. Mauridhi H. Purnomo
-* **2015 - 2017** Master Degree in Electrical Engineering (equivalent to an MSc in CS), Department of Electrical Engineering, Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia\
-Advisor: Prof. Mauridhi H. Purnomo
-* **2007 - 2012** Bachelor Degree in Information System, Institut Teknologi Sepuluh Nopember, Surabaya, Indonesia
+
 
 ### Award and Achievement ###
 * **2022 - 2025** Lembaga Pengeloa Dana Pendidikan (LPDP) Scholarship for Doctorate Degree
